@@ -14,3 +14,4 @@ program
 
 program.parse(args);
 
+export default gendiff;
