@@ -4,7 +4,7 @@
   "description": "This project is created with learning purpose. This is the first step of Hexlet projects course.",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "gendiff": "node dist/bin/gendiff.js",
     "babel-node": "babel-node",
     "build": "set NODE_ENV=production && babel src --out-dir dist --source-maps inline ",
@@ -30,17 +30,20 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^8.2.6",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-babel": "^5.1.0",
-    "eslint-plugin-import": "^2.12.0"
+    "eslint-plugin-babel": "^5.2.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-lodash-fp": "^2.2.0-a1"
   },
   "dependencies": {
     "commander": "^2.19.0",
     "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
     "lodash": "^4.17.11",
     "readline-sync": "^1.4.9"
   }
