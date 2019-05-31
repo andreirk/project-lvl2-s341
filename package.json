@@ -1,10 +1,11 @@
 {
   "name": "@andreirk/my_gendiff",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "This project is created with learning purpose. This is the first step of Hexlet projects course.",
   "main": "",
   "scripts": {
     "test": "jest",
+    "watch": "jest --watch",
     "gendiff": "node dist/bin/gendiff.js",
     "babel-node": "babel-node",
     "build": "set NODE_ENV=production && babel src --out-dir dist --source-maps inline ",
