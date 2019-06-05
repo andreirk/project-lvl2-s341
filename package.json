@@ -1,6 +1,6 @@
 {
   "name": "@andreirk/my_gendiff",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "This project is created with learning purpose. This is the first step of Hexlet projects course.",
   "main": "",
   "scripts": {
@@ -45,6 +45,7 @@
     "commander": "^2.19.0",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
+    "js-yaml": "^3.13.1",
     "lodash": "^4.17.11",
     "readline-sync": "^1.4.9"
   }
