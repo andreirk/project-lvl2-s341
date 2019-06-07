@@ -1,7 +1,7 @@
 {
   "name": "@andreirk/my_gendiff",
-  "version": "0.1.4",
-  "description": "This project is created with learning purpose. This is the first step of Hexlet projects course.",
+  "version": "0.1.6",
+  "description": "This project is created with learning purpose. This is the second step of Hexlet projects course.",
   "main": "",
   "scripts": {
     "test": "jest",
